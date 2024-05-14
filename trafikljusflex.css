@@ -1,0 +1,36 @@
+.Box {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.size {
+  width: 100px;
+  height: 100px;
+}
+.innerRed {
+  background-color: #ff0000;
+  border: 10px #b60000 solid;
+  outline-color: white;
+  outline-width: 10px;
+  outline-style: solid;
+  margin: 10px 10px 0px 10px;
+}
+.innerYellow {
+  background-color: #ffd800;
+  border: 10px #eb8b01 solid;
+  outline-color: white;
+  outline-width: 10px;
+  outline-style: solid;
+  margin: 10px 10px 0px 10px;
+}
+.innerGreen {
+  background-color: #128300;
+  border: 10px #0c5600 solid;
+  outline-color: white;
+  outline-width: 10px;
+  outline-style: solid;
+  margin: 10px 10px 10px 10px;
+}

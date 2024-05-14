@@ -1,0 +1,59 @@
+.Box {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.size {
+  width: 100px;
+  height: 100px;
+}
+.veryInnerRed {
+  background-color: #ff9b9b;
+  height: 50%;
+  width: 100%;
+}
+.veryInnerYellow {
+  background-color: #fff39b;
+  height: 50%;
+  width: 50%;
+}
+.veryInnerGreen {
+  background-color: #a6d18e;
+  height: 50%;
+  width: 50%;
+}
+.innerRed {
+  background-color: #ff0000;
+  border: 10px #b60000 solid;
+  outline-color: white;
+  outline-width: 10px;
+  outline-style: solid;
+  margin: 10px 10px 0px 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.innerYellow {
+  background-color: #ffd800;
+  border: 10px #eb8b01 solid;
+  outline-color: white;
+  outline-width: 10px;
+  outline-style: solid;
+  margin: 10px 10px 0px 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.innerGreen {
+  background-color: #128300;
+  border: 10px #0c5600 solid;
+  outline-color: white;
+  outline-width: 10px;
+  outline-style: solid;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
